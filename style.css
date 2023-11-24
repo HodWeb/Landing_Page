@@ -1,0 +1,53 @@
+
+/* fonte externa do Google */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');    
+
+* {
+margin: 0;
+padding: 0;
+}
+
+:root{
+    --white: #fff;
+    --dark1: #34344e;        
+    --dark2: #3a415a;
+    --dark3: #566981;
+    --dark4: #89a7b1;
+    --dark5: #cbdad5;
+    --dark6: #2f2f46;
+    --cyan1: #70e3ea;
+}
+
+body{
+    /* background-color: var(--dark1); */
+    height: 100vh;
+    font-family: 'Lato';
+}
+
+header{
+    display: flex; /*flex deixa um elemento ao lado do outro*/
+    justify-content: space-around; /*alinhamento*/
+    align-items: center; /*alinhamento na vertical*/
+    gap: 1rem; /*espaço entre os elementos*/
+    flex-wrap: wrap;/*vai quebrando os elementos, deixando um abaixo do outro conforme o tamanh da tela (responsividade)*/
+    padding: .8rem;
+    background-color: var(--dark6);
+    min-height: 50px; /*altura do cabeçalho header*/
+}
+
+.box-img-heder{
+    height: 100%;
+}
+
+.img-logo{
+    max-width: 60px;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
